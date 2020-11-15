@@ -1,0 +1,126 @@
+body{
+  margin:0;
+  padding: 0;
+  font-size: 22px;
+  font-family:'Lato';
+  background:#EC4D37;
+  justify-content: center;
+}
+
+h1{
+  border-bottom: 2px solid black;
+  text-align: center;
+  font-family:'Lato';
+  font-weight: 800;
+  background:#950740;
+  padding:15px;
+  margin: 0 auto;
+}
+
+.header{
+
+}
+
+.myProjects{
+padding:10px;
+margin:0;
+background:#950740;
+}
+
+.comment-section{
+margin: 0 auto;
+display:inline-block;
+}
+.comments{
+  margin: 20px;
+}
+
+.background{
+  margin: 20px;
+}
+
+button{
+  font-family: cursive;
+  font-size:15px;
+  font-weight:600;
+}
+
+.like:hover,.like:focus,.like:active{
+  background-color:skyblue;
+}
+
+.dislike:hover,.dislike:focus{
+  background-color:red;
+}
+
+#postBtn{
+margin-left:240px;
+width: 70px;
+height:30px;
+}
+
+#postBtn:hover{
+  background-color:grey;
+}
+
+textarea{
+  width:300px;
+  height:100px;
+  font-family: cursive;
+  font-size:0.8em;
+}
+
+textarea:focus{
+  outline:none;
+  font-family: cursive;
+  font-size:0.8em;
+}
+
+.project-border{
+  border-bottom: 2px solid #000;
+  width:250px;
+}
+
+.contact{
+  margin:40px 40px;
+  background:#581845;
+  margin:0;
+  padding: 20px;
+}
+.contactLink{
+color:black;
+background:#FFC300;
+margin-bottom:10px;
+padding:5px;
+font-weight:800;
+text-decoration: none;
+border-radius:10%;
+text-transform:lowercase;
+}
+
+.contactLink:hover{
+  font-size:25px;
+  color:#000
+}
+
+.comment-heading{
+  border-bottom: 2px solid #000;
+}
+
+.new-para{
+  font-size:20px;
+}
+
+/* Some space between the projects(games) */
+li{
+  margin:5px 0;
+}
+
+/* Styling Links */
+a{
+  color:#EC4D37;
+}
+
+a:hover,a:focus{
+  color:darkcyan;
+}
